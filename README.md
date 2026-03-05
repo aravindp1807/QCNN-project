@@ -6,6 +6,7 @@ An end-to-end repository featuring **Classical Convolutional Neural Networks (CN
 
 ## 📄 Documentation Quick Links
 
+- 🎓 **[Interview Preparation Master Guide (INTERVIEW_PREP_GUIDE.md)](INTERVIEW_PREP_GUIDE.md)**: Comprehensive interview guide with 60-second pitch, line-by-line code explanation, quantum circuit construction, architectural defense ("Why this circuit?"), and top 15 interview Q&A.
 - 📋 **[Technical Specifications (SPECS.md)](SPECS.md)**: Hardware, simulator, QCNN topology, qubit count, data encoding, and hyperparameter specifications.
 - 📘 **[Project Explanation (PROJECT_EXPLANATION.md)](PROJECT_EXPLANATION.md)**: Theoretical overview of classical CNNs vs. QCNN quantum convolution & pooling mechanics.
 - 📊 **[Evaluation Benchmark Table (EVALUATION_TABLE.md)](EVALUATION_TABLE.md)**: Comparative matrix of Classical CNN vs. QCNN variants across accuracy, parameter counts, and loss functions.
@@ -27,6 +28,7 @@ An end-to-end repository featuring **Classical Convolutional Neural Networks (CN
 
 ```
 qnn project qml/
+├── INTERVIEW_PREP_GUIDE.md                # Ultimate Interview Preparation & Defense Guide
 ├── SPECS.md                                # Technical & system specifications
 ├── PROJECT_EXPLANATION.md                  # Comprehensive QCNN theory & architecture
 ├── EVALUATION_TABLE.md                     # Benchmark evaluation matrix
@@ -44,7 +46,7 @@ qnn project qml/
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Quick Start & How to Run
 
 ### 1. Environment Setup
 
@@ -69,4 +71,4 @@ python train_mnist_cnn.py --epochs 5 --batch-size 32
 ```bash
 jupyter notebook
 ```
-Navigate to `Quantum Convolutional Neural Networks/` and open `MNIST_using_CNN.ipynb`.
+Navigate to `Quantum Convolutional Neural Networks/` and open `MNIST_using_CNN.ipynb` or `QCNN_with_cirq_and_tf.ipynb`.
