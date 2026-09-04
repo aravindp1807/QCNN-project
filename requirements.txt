@@ -1,0 +1,13 @@
+# Quantum Machine Learning Project Dependencies
+tensorflow>=2.8.0
+tensorflow-quantum>=0.7.2
+cirq>=0.14.0
+qiskit>=0.34.0
+qiskit-machine-learning>=0.4.0
+torch>=1.11.0
+torchvision>=0.12.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
